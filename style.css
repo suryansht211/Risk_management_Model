@@ -1,0 +1,47 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.bg-orange {
+    background-color: #FFA500 !important;
+}
+
+.btn-orange {
+    background-color: #FFA500;
+    border-color: #FFA500;
+    color: white;
+}
+
+.btn-orange:hover {
+    background-color: #FF8C00;
+    border-color: #FF8C00;
+}
+
+header {
+    background-color: #FFA500;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+#insights > .col-md-4, #alerts-container > .col-md-4, #compliance-container > .col-md-4 {
+    padding: 15px;
+}
+
+.card {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border: none;
+}
+
+.card-body {
+    background-color: #e9ecef;
+    border-radius: 4px;
+}
