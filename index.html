@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank of Baroda Risk Management Dashboard</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="bg-orange text-white text-center py-4">
+        <h1>Bank of Baroda Risk Management Dashboard</h1>
+    </header>
+    <main class="container mt-4">
+        <section id="input-section" class="mb-4">
+            <h2 class="mb-3">Input Data</h2>
+            <form id="data-form">
+                <div class="form-group">
+                    <label for="data-type">Data Type:</label>
+                    <select id="data-type" name="data-type" class="form-control">
+                        <option value="transaction">Transaction Data</option>
+                        <option value="market">Market Data</option>
+                        <option value="customer">Customer Data</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="data-input">Data Input:</label>
+                    <textarea id="data-input" name="data-input" rows="4" class="form-control" placeholder="Enter data here..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-orange">Submit</button>
+            </form>
+        </section>
+        <section id="dashboard" class="mb-4">
+            <h2 class="mb-3">Risk Insights</h2>
+            <div id="insights" class="row">
+                <!-- Risk insights visualizations will be dynamically inserted here -->
+            </div>
+        </section>
+        <section id="alerts" class="mb-4">
+            <h2 class="mb-3">Real-Time Risk Alerts</h2>
+            <div id="alerts-container" class="row">
+                <!-- Real-time risk alerts will be dynamically inserted here -->
+            </div>
+        </section>
+        <section id="compliance" class="mb-4">
+            <h2 class="mb-3">Compliance Checks</h2>
+            <div id="compliance-container" class="row">
+                <!-- Compliance checks will be dynamically inserted here -->
+            </div>
+        </section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
